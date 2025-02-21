@@ -1,0 +1,61 @@
+/*Author: Sydney Slaton 
+ * Date: 2/20/25
+ * File Name: styles.css*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, h2, h3, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*Style rule for body and image*/
+body {
+    Background-color: #FFF9EB; 
+}
+img {
+    max-width: 100%; 
+    display: block;
+}
+
+/*Style rule for header*/
+header {
+    background-color: #FB8500;
+    width: 100%;
+    float: top; 
+    text-align-last: center;
+     font-family: Garamond, serif;
+}
+
+/*style rule for navigation area*/ 
+nav {
+    width: 100;
+    background-color: #FFEDC2;
+    font-family: Garamond, serif;
+  float: center; 
+    font-size: 2em
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* style rule for main content*/
+main {
+    clear: left;
+    background-color: #FFF9EB; 
+    padding: 0 1em;
+    font-family: Garamond, serif;
+    font-size: 0 1em 
+}
+
+/*style rule for footer content*/
+footer {
+    font-size: 0.75em;
+    text-align: left;
+    color: #FB8500;
+    padding: 0 1em
+}
+
+
