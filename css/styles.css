@@ -10,18 +10,19 @@ body, header, nav, main, footer, h1, h2, h3, div, img, ul {
 }
 
 
-/*Style rule for body and image*/
+/* 1 Style rule for body and image*/
 body {
     Background-color: #FFF9EB; 
 }
 img {
     max-width: 100%; 
-    display: block;
+    display: block; 
 }
 
-/*Style rule for header*/
+/* Style rule for header*/
 header {
     background-color: #FB8500;
+    color: #FFEDC2;
     width: 100%;
     float: top; 
     text-align-last: center;
@@ -32,13 +33,16 @@ header {
 nav {
     width: 100;
     background-color: #FFEDC2;
-    font-family: Garamond, serif;
-  float: center; 
-    font-size: 2em
+    font-family: Garamond, serif; 
+    font-size: 2em;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
 }
-ul {
+nav li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
+    font-size: 1em;
 }
 
 /* style rule for main content*/
@@ -54,8 +58,50 @@ main {
 footer {
     font-size: 0.75em;
     text-align: left;
-    color: #FB8500;
-    padding: 0 1em
+    color: #FFEDC2;
+    padding: 0 1em;
+    padding-bottom: 1em;
+    padding-top: 1em
 }
 
+/*Style rule for links*/
+a {
+    color: #FB8500;
+    text-decoration: none;
+}
+/*visited links*/
+a:visited {
+    color: #E36414;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #E36414
+}
 
+/* style rule for unordered lists*/
+ul {
+    list-style-type: circle;
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+
+/*style rule for heading 2*/ 
+h2 {
+    color: #FB8500;
+}
+
+/*Style rule for ids */ 
+#News, #Illustrator {
+    width: 35%;
+    float: right; 
+    margin: 0 2%;
+}
+
+/* style rule for class selector*/
+.action {
+    font-size: 1.5em;
+    color: #FB8500;
+    font-style: italic;
+}
